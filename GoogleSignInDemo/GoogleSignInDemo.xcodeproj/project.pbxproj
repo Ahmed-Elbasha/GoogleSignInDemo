@@ -12,6 +12,8 @@
 		7E2D56FB2170F3BE00215647 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E2D56F92170F3BE00215647 /* Main.storyboard */; };
 		7E2D56FD2170F3CA00215647 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E2D56FC2170F3CA00215647 /* Assets.xcassets */; };
 		7E2D57002170F3CA00215647 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E2D56FE2170F3CA00215647 /* LaunchScreen.storyboard */; };
+		7E2D57082171080300215647 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E2D57072171080300215647 /* GoogleService-Info.plist */; };
+		7E2D570A21710B2E00215647 /* credentials.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E2D570921710B2E00215647 /* credentials.plist */; };
 		A4AB06E6D12833A6D81597B1 /* libPods-GoogleSignInDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FFADBE02BA299E5CC9A14711 /* libPods-GoogleSignInDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +25,8 @@
 		7E2D56FC2170F3CA00215647 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E2D56FF2170F3CA00215647 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E2D57012170F3CA00215647 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E2D57072171080300215647 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7E2D570921710B2E00215647 /* credentials.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = credentials.plist; sourceTree = "<group>"; };
 		E2E6E314FC4E7D6B78879EF6 /* Pods-GoogleSignInDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleSignInDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleSignInDemo/Pods-GoogleSignInDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		FF64413E20CBD19834287B8D /* Pods-GoogleSignInDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleSignInDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleSignInDemo/Pods-GoogleSignInDemo.release.xcconfig"; sourceTree = "<group>"; };
 		FFADBE02BA299E5CC9A14711 /* libPods-GoogleSignInDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GoogleSignInDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -67,6 +71,8 @@
 				7E2D56FC2170F3CA00215647 /* Assets.xcassets */,
 				7E2D56FE2170F3CA00215647 /* LaunchScreen.storyboard */,
 				7E2D57012170F3CA00215647 /* Info.plist */,
+				7E2D57072171080300215647 /* GoogleService-Info.plist */,
+				7E2D570921710B2E00215647 /* credentials.plist */,
 			);
 			path = GoogleSignInDemo;
 			sourceTree = "<group>";
@@ -150,7 +156,9 @@
 			files = (
 				7E2D57002170F3CA00215647 /* LaunchScreen.storyboard in Resources */,
 				7E2D56FD2170F3CA00215647 /* Assets.xcassets in Resources */,
+				7E2D570A21710B2E00215647 /* credentials.plist in Resources */,
 				7E2D56FB2170F3BE00215647 /* Main.storyboard in Resources */,
+				7E2D57082171080300215647 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
